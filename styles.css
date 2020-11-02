@@ -1,0 +1,132 @@
+h1{
+	text-align: left;
+	text-decoration: italic;
+	color: red; 
+	background-color:#ccffff;
+	top: 10px;
+	left: 100px;
+	font-family: 'sansita swashed', cursive;
+
+}
+
+#logo{
+	text-align:center;
+	width: 40%;
+	 width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center; 
+	background-color: gold;	
+}
+
+#sidebar{	
+	background-color: lightblue; 
+	float: left;
+	height: 80%;
+	width: 13%;
+}
+
+a{
+	display: block;
+}
+
+#footer{
+	text-align: right;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-decoration: underline:	
+
+}
+
+p{
+	font-size: 18px;
+	background-color: lightgreen;
+	padding: 15px;	
+}
+
+h1, a, img, p{
+	padding: 5px;
+}
+
+body{
+	background-color: hotpink;
+	padding: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/* RWC using @media */
+
+/* Smaller screens */
+
+
+@media screen and (max-width: 1200px) {
+	body{
+		background-color: orange; 
+	}
+	#wrapper{
+		width: auto;
+		height: auto;
+		margin: 0 auto;	
+}
+	
+	#sidebar{
+		background-color: green; 
+		float: auto;
+		height: 68.3%;
+		width: 13%;
+}
+	#main {	
+		background-color: blue;
+	}
+}
+
+/* for 1000px or less */
+@media screen and (max-width: 1000px) {
+	body{
+		background-color: red; 
+	}
+	
+	#sidebar{	
+		background-color: pink; 
+		float: left;
+		height: 68.3%;
+		width: 13%;
+}
+	#wrapper{
+		width: auto;
+		height: auto;
+		margin: 0 auto;	
+	}
+	#main {	
+		background-color: white;
+	}		
+}
+}
+
+
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+	body{
+		background-color: blue; 
+	}
+	
+	#sidebar{	
+		background-color: red; 
+		float: left;
+		height: 68.3%;
+		width: 13%;
+}
+	#wrapper{
+		width: auto;
+		height: auto;
+		margin: 0 auto;	
+	}
+	#main {	
+		background-color: white;
+	}		
+}
+
+
